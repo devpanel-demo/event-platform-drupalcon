@@ -1,0 +1,57 @@
+    <div class="site-hero-details">
+      {% if event_details.field_dates.0 %}
+        <span class="site-hero-details__item">
+          {{- event_details.field_dates.value|date('M  d') -}}
+          -
+          {{- event_details.field_dates.end_value|date('d, Y') -}}
+        </span>
+      {% endif %}
+      {% if event_details.field_event_location_short.0 %}
+        <span class="site-hero-details__item">
+          {{ event_details.field_event_location_short.value }}
+        </span>
+      {% endif %}
+      <button class="site-hero-details__button">
+        <div class="visually-hidden">Show event details</div>
+      </button>
+      <div class="site-hero-details__flyout">
+        <div class="site-hero-details__flyout-general">
+          <div class="site-hero-details__flyout-general-date">
+            {{- event_details.field_dates.value|date('M d') -}}
+            -
+            {{- event_details.field_dates.end_value|date('d, Y') -}}
+          </div>
+          <div class="site-hero-details__flyout-general-location">{{ event_details.field_event_location_short.value }}</div>
+        </div>
+        <div class="site-hero-details__flyout-day">
+          <a href="/schedule/day-1">
+            <div class="site-hero-details__flyout-day-heading">
+              Day One
+            </div>
+            <div class="site-hero-details__flyout-day-info">
+              Drupal Trainings
+            </div>
+          </a>
+        </div>
+        <div class="site-hero-details__flyout-day">
+          <a href="/schedule/day-2">
+            <div class="site-hero-details__flyout-day-heading">
+              Day Two
+            </div>
+            <div class="site-hero-details__flyout-day-info">
+              Sessions
+            </div>
+          </a>
+        </div>
+        <div class="site-hero-details__flyout-day">
+          <a href="/schedule/day-3">
+            <div class="site-hero-details__flyout-day-heading">
+              Day Three
+            </div>
+            <div class="site-hero-details__flyout-day-info">
+              Contribution Day
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>

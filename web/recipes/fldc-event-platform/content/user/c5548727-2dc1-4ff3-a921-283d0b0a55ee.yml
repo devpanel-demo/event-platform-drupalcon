@@ -1,0 +1,65 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: c5548727-2dc1-4ff3-a921-283d0b0a55ee
+  default_langcode: en
+  depends:
+    e1fbb64e-b520-4e8b-8d2b-8a3df965173f: file
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: ckdoe
+  pass:
+    -
+      value: $2y$10$Ec14uS.wt5G6/dUZOUgbWOp9co.IqNKTfEdPrw8joio.470fZLmYK
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: cristina@demo.com
+  timezone:
+    -
+      value: America/New_York
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1637140328
+  access:
+    -
+      value: 1731982800
+  login:
+    -
+      value: 1731981769
+  init:
+    -
+      value: cristina@demo.com
+  roles:
+    -
+      target_id: speaker
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_bio:
+    -
+      value: "<p><span>Lead Engineer at Lullabot, Drupal CMS UX Lead, Drupal core Front-end framework manager, UX, new core Navigation and Claro co-maintainer. Involved in Barcelona's local community organizing Drupal and other tech-related events.</span></p>"
+      format: basic_html
+  field_display_name:
+    -
+      value: "Cristina Doe"
+  user_picture:
+    -
+      entity: e1fbb64e-b520-4e8b-8d2b-8a3df965173f
+      alt: ''
+      title: ''
+      width: 400
+      height: 400

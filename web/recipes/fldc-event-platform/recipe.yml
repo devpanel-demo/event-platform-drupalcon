@@ -1,0 +1,27 @@
+name: 'FLDC QuickStart with the Event Platform 2025'
+description: 'Demo content for FLDC'
+type: 'FLDC starter kit'
+install:
+  # An array of modules or themes to install, if they are not already.
+  # The system will detect if it is a theme or a module. figure how to get event_platform_details to work.
+  - gin
+  - pubsub
+  - content_translation
+  - event_platform_details
+  - event_platform_job_listings
+  - event_platform_sessions
+  - event_platform_speakers
+  - event_platform_sponsors
+  - event_platform_scheduler
+  - event_platform_ratings
+config:
+  strict: false
+  actions:
+    system.site:
+      simpleConfigUpdate:
+        page:
+          front: '/node/134'
+    system.theme:
+      simpleConfigUpdate:
+        default: pubsub
+        admin: gin

@@ -1,0 +1,73 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 34a49e30-c92b-48f5-bc39-adb4f4f0cb8e
+  bundle: session
+  default_langcode: en
+  depends:
+    63770343-62c3-43d9-a9b6-3ac1dfc810ec: taxonomy_term
+    83ca7e93-73e4-4d0f-8c48-b943b01ef416: taxonomy_term
+    e20c7acb-4d97-4a04-a49a-cc103d41f355: taxonomy_term
+    cbad5317-bcd5-4d86-9316-06d616b0ec7c: user
+    943cfb56-d894-4045-8751-0048ff1df3ac: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: '  Registration + Breakfast & Coffee ☕️'
+  created:
+    -
+      value: 1742225081
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: accepted
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1
+  field_audience:
+    -
+      entity: 63770343-62c3-43d9-a9b6-3ac1dfc810ec
+  field_description:
+    -
+      value: "<p>Registration will start at 8am. We'll have a full continental breakfast including coffee, pastries, and fruit.&nbsp;</p>"
+      format: basic_html
+  field_is_non_session:
+    -
+      value: true
+  field_is_training:
+    -
+      value: false
+  field_r:
+    -
+      entity: 83ca7e93-73e4-4d0f-8c48-b943b01ef416
+  field_session_category:
+    -
+      entity: e20c7acb-4d97-4a04-a49a-cc103d41f355
+  field_short_description:
+    -
+      value: "Registration will start at 8am. We'll have a full continental breakfast including coffee, pastries, and fruit. "
+  field_speakers:
+    -
+      entity: cbad5317-bcd5-4d86-9316-06d616b0ec7c
+  field_time_slot:
+    -
+      entity: 943cfb56-d894-4045-8751-0048ff1df3ac

@@ -1,0 +1,52 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: cbad5317-bcd5-4d86-9316-06d616b0ec7c
+  default_langcode: en
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: joedoe
+  pass:
+    -
+      value: $2y$10$WM4vx7Mf1Aj125P49aiKqeKwhDWiqbq9AvuQCv85cLNCK0ijZU.xm
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: joe@doe.com
+  timezone:
+    -
+      value: America/New_York
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1742011995
+  access:
+    -
+      value: 0
+  login:
+    -
+      value: 0
+  init:
+    -
+      value: joe@doe.com
+  roles:
+    -
+      target_id: speaker
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1
+  field_display_name:
+    -
+      value: 'Joe Doe'

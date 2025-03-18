@@ -1,0 +1,65 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: c6f6fcd8-22b8-476a-b5ae-347ff805d238
+  bundle: session
+  default_langcode: en
+  depends:
+    63770343-62c3-43d9-a9b6-3ac1dfc810ec: taxonomy_term
+    becb1f38-1ae9-40a4-84e7-e6fd194d5a19: taxonomy_term
+    8deb6b1e-e289-4ea6-a4bc-0a62e3cca062: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Bulk updated fields: field_acceptance'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Opening Session'
+  created:
+    -
+      value: 1642348382
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: proposed
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1
+  field_audience:
+    -
+      entity: 63770343-62c3-43d9-a9b6-3ac1dfc810ec
+  field_description:
+    -
+      value: "<p>Start the day with FLDC updates, thank yous, and announcements!</p>\r\n"
+      format: full_html
+  field_is_non_session:
+    -
+      value: true
+  field_is_training:
+    -
+      value: false
+  field_r:
+    -
+      entity: becb1f38-1ae9-40a4-84e7-e6fd194d5a19
+  field_session_category:
+    -
+      entity: 8deb6b1e-e289-4ea6-a4bc-0a62e3cca062

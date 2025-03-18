@@ -1,0 +1,65 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: eab5b3d7-59ca-4b60-b6ef-249b1782bfe0
+  default_langcode: en
+  depends:
+    d60496d0-a87f-41ac-8fa7-bc7897a26cef: file
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: lauridoe
+  pass:
+    -
+      value: $2y$10$ma3pNe1cBry.rDjvqbkbteC3imP0zuGELp/KibP.FpCWMB6uyTC.O
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: lauri.doe@demo.com
+  timezone:
+    -
+      value: America/New_York
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1731418014
+  access:
+    -
+      value: 1731419122
+  login:
+    -
+      value: 1731418145
+  init:
+    -
+      value: lauri.doe@demo.com
+  roles:
+    -
+      target_id: speaker
+  path:
+    -
+      alias: /u/lauriiidoe
+      langcode: en
+      pathauto: 1
+  field_bio:
+    -
+      value: 'Lauri is a product manager with over a decade of experience from open source product development. Currently, he is the Product Lead for the Experience Builder initiative and works on Acquia’s Drupal Acceleration Team.'
+      format: plain_text
+  field_display_name:
+    -
+      value: "Laurii Doe"
+  user_picture:
+    -
+      entity: d60496d0-a87f-41ac-8fa7-bc7897a26cef
+      alt: ''
+      title: ''
+      width: 2018
+      height: 2000

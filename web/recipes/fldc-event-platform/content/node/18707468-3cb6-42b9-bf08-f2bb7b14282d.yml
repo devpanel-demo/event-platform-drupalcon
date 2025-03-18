@@ -1,0 +1,73 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 18707468-3cb6-42b9-bf08-f2bb7b14282d
+  bundle: session
+  default_langcode: en
+  depends:
+    63770343-62c3-43d9-a9b6-3ac1dfc810ec: taxonomy_term
+    aa9ce6a2-96bf-4b4f-894f-b85444aa046c: taxonomy_term
+    8deb6b1e-e289-4ea6-a4bc-0a62e3cca062: taxonomy_term
+    cbad5317-bcd5-4d86-9316-06d616b0ec7c: user
+    74068ff4-2b08-46a0-a2f9-31015a625186: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Using DDEV for Drupal Development'
+  created:
+    -
+      value: 1742012779
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: accepted
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1
+  field_audience:
+    -
+      entity: 63770343-62c3-43d9-a9b6-3ac1dfc810ec
+  field_description:
+    -
+      value: '<p>This session will show how to set up and use DDEV for development of the Drupal site. It can be used for new development or updating code of a current site.</p>'
+      format: basic_html
+  field_is_non_session:
+    -
+      value: false
+  field_is_training:
+    -
+      value: false
+  field_r:
+    -
+      entity: aa9ce6a2-96bf-4b4f-894f-b85444aa046c
+  field_session_category:
+    -
+      entity: 8deb6b1e-e289-4ea6-a4bc-0a62e3cca062
+  field_short_description:
+    -
+      value: 'This session will show how to set up and use DDEV for development of the Drupal site. It can be used for new development or updating code of a current site.'
+  field_speakers:
+    -
+      entity: cbad5317-bcd5-4d86-9316-06d616b0ec7c
+  field_time_slot:
+    -
+      entity: 74068ff4-2b08-46a0-a2f9-31015a625186
